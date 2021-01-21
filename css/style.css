@@ -1,0 +1,68 @@
+body {
+	background-color: #1e1e1e;
+	font-family: 'Roboto', sans-serif;
+}
+h1{
+	text-align: center;
+	color: #fff;
+	font-size: 50px;
+}
+.cont-visor{
+	height: 150px;
+}
+.numeros td{
+	background-color: #F5F5F5;
+	text-align: center;
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
+	border-radius: 60px;
+	font-size: 20px;
+}
+.numeros td:hover {
+    background: #B956EE;
+    border-right: 3px solid #750039;
+    box-shadow: 0px 2px #750039;
+}
+td.operaclass{
+	background-color: #4E2F71;
+	color: #D3ADF0;
+}
+td.igual{
+	background-color: #FDB82C;
+	color: #fff;
+}
+td.numbercolor{
+	background-color: #363737;
+	color: #fff;
+}
+.calculator{
+	margin:0 auto;
+	padding:20px;
+	background-color:#717171;
+	width:340px;
+	height:500px;
+	border-radius: 25px;
+}
+.visor{
+	display:block;
+	text-align: center;
+	font-size: 60px;
+	width:300px;
+	height: 100px;
+	line-height: 100px;
+	background-color:#d0d0d0;
+	border-radius: 25px;
+	overflow-y: scroll;
+	color: #363737;
+}
+@media (max-width: 380px) {
+    .calculator{
+        width: 100%;
+        padding: 10px 0 10px;
+	}
+	.numeros td{
+		width: 30px;
+		height: 30px;
+	}
+}
